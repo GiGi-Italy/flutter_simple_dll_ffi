@@ -2,6 +2,7 @@
 Following the official Microsoft walkthrough to create a DLL in C++, I created the indicated library that calculates Fibonacci numbers.
 The Microsoft site suggests using the newly created library as an external library for another application always created in C++.
 My goal is instead to integrate the DLL into a Flutter app to demonstrate how it is possible to combine the power of C++ with the flexibility of Flutter and thus create FrontEnds of our liking.
+The need for this project comes from a project of mine in which I had to control a Laser Tracker to detect measurements in the production line. The Laser Tracker, like many high-level hardware, is supplied with DLLs that are part of its SDK written in C++.
 
 # Contents
 Using DLLs written in C++ with Flutter: allows you to use high-performance native code, while maintaining the modern and user-friendly interface that Flutter offers. This approach allows for greater efficiency and compatibility, especially in complex projects that require integration with systems, including hardware, of a different nature. Flutter, with the dart:ffi package, makes this integration simple, offering new development opportunities.
